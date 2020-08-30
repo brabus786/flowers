@@ -1,0 +1,47 @@
+.Section1 {
+    position: relative;
+    padding: 145px 0;
+
+    &__bg1 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+    }
+    &__label {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #202932;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 50px;
+        color: #202932;
+    }
+    &__subTitle {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #202932;
+        margin-bottom: 50px;
+    }
+    &__button {
+        width: 285px;
+        height: 50px;
+        background: #3d2dda;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #ffffff;
+        border: none;
+        outline: none !important;
+    }
+}
