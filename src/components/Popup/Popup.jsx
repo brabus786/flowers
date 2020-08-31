@@ -32,7 +32,7 @@ const Popup = ({ isPopup, setIsPopup }) => {
     let popup = null;
     let content = (
         <form onSubmit={sendEmail}>
-            <span onClick={() => setIsPopup(false)}>Закрыть</span>
+            <span onClick={() => setIsPopup(false)}>X</span>
             <p>Заявка на регистрацию</p>
             <input name="user_name" type="text" placeholder='Ваше Имя' />
             <input name="user_userPhone" type="text" placeholder='Номер телефона' />
