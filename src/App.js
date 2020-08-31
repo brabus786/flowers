@@ -4,13 +4,17 @@ import Section2 from './components/Section2/Section2';
 import Section3 from './components/Section3/Section3';
 import Section4 from './components/Section4/Section4';
 import Popup from './components/Popup/Popup';
+import ReactGA from 'react-ga';
 
 
 function App() {
 
+  const trackingId = "UA-176818623-1";
+  ReactGA.initialize(trackingId);
+
   const [isPopup,setIsPopup] = useState(false)
 
-  console.log(isPopup);
+ // console.log(isPopup);
 
   return (
     <div className="App">
