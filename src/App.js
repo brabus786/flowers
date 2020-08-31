@@ -1,4 +1,4 @@
-import React,{ useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Section1 from './components/Section1/Section1';
 import Section2 from './components/Section2/Section2';
 import Section3 from './components/Section3/Section3';
@@ -10,11 +10,12 @@ import ReactGA from 'react-ga';
 function App() {
 
   const trackingId = "UA-176818623-1";
-  ReactGA.initialize(trackingId);
 
-  const [isPopup,setIsPopup] = useState(false)
+  const [isPopup, setIsPopup] = useState(false)
 
- // console.log(isPopup);
+  useEffect(() => {
+    ReactGA.initialize(trackingId);
+  }, [])
 
   return (
     <div className="App">
@@ -22,12 +23,12 @@ function App() {
         isPopup={isPopup}
         setIsPopup={setIsPopup}
       />
-      <Section1 
+      <Section1
         setIsPopup={setIsPopup}
       />
       <Section2 />
       <Section3 />
-      <Section4 
+      <Section4
         setIsPopup={setIsPopup}
       />
     </div>
