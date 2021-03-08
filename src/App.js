@@ -14,8 +14,8 @@ function App() {
   const [isPopup, setIsPopup] = useState(false)
 
   useEffect(() => {
-    ReactGA.initialize(trackingId);
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    // ReactGA.initialize(trackingId);
+    // ReactGA.pageview(window.location.pathname + window.location.search);
 
   }, [])
 
