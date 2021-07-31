@@ -12,7 +12,7 @@ const Section4 = ({setIsPopup}) => {
                         <p className='Section4__title'>
                             Создай личную витрину и развивай свой бизнес
                         </p>
-                        <button onClick={() => setIsPopup(true)} className='Section4__button'>Создать Витрину</button>
+                        <a href='https://app.florinka.pp.ua/authorization' className='Section4__button'>Создать Витрину</a>
                     </Col>
                     <Col xl='6'></Col>
                 </Row>

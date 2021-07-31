@@ -43,5 +43,14 @@
         color: #ffffff;
         border: none;
         outline: none !important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover{
+            color: #ffffff;
+            background: #201a53;
+            text-decoration: none;
+        }
     }
 }
