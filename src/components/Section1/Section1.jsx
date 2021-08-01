@@ -11,14 +11,14 @@ const Section1 = ({ setIsPopup }) => {
             <Container>
                 <Row>
                     <Col xl='6'>
-                        <p className='Section1__label'>цветочные магазины и флористы</p>
+                        <p className='Section1__label'>цветочные магазины, флористы, магазины с не большой наменклатурой товаров</p>
                         <p className='Section1__title'>
-                            Расширяй цветочный бизнес с онлайн витриной
+                            Расширяй свой онлайн бизнес
                         </p>
                         <p className='Section1__subTitle'>
-                            Персональная страница и<b> каталог</b> цветов с <b> оналйн оплатой </b> и удобным управлением заказм. Создай <b>за 5 минут</b> без технических знаний и <b>затрат</b>
+                            Персональная страница и<b> каталог</b> товаров с <b> оналйн оплатой </b> и удобным управлением заказм. Создай <b>за 5 минут</b> без технических знаний и <b>затрат</b>
                         </p>
-                        <a href='https://app.florinka.pp.ua/registration' className='Section1__button'>Создать Витрину</a>
+                        <a href='https://app.florinka.pp.ua/registration' className='Section1__button'>Создать магазин</a>
                     </Col>
                     <Col xl='6'></Col>
                 </Row>
