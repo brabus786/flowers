@@ -10,9 +10,9 @@ const Section4 = ({setIsPopup}) => {
                 <Row>
                     <Col xl='6'>
                         <p className='Section4__title'>
-                            Создай личный магазин и развивай свой бизнес
+                            Создай витрину своего физического магазина и развивай свой бизнес
                         </p>
-                        <a href='https://app.florinka.pp.ua/registration' className='Section4__button'>Создать магазин</a>
+                        <a href='https://app.florinka.pp.ua/registration' className='Section4__button'>Создать витрину</a>
                     </Col>
                     <Col xl='6'></Col>
                 </Row>
