@@ -11,7 +11,7 @@ const Section1copy1 = ({ title, text, img, position }) => {
         <div className='Section1copy1'>
             <Container>
                 <Row className={cx('Section1copy1__innerContainer',{'Section1copy1__left':position ==='left'})}>
-                    <Col xl='6'>
+                    <Col xl='6' sm='12'>
                         <p className='Section1copy1__title'>{title}</p>
                         {
                         text.split('\n').map((data) => {
@@ -21,7 +21,7 @@ const Section1copy1 = ({ title, text, img, position }) => {
                         })
                         }
                     </Col>
-                    <Col xl='6'>
+                    <Col xl='6' sm='12'>
                         <img src={img} alt="img" />
                     </Col>
                 </Row>
