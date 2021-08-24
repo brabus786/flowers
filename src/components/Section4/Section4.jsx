@@ -10,6 +10,7 @@ const Section4 = ({setIsPopup}) => {
                 <Row>
                     <Col xl='6'>
                         <p className='Section4__title'>
+                            
                             Создай витрину своего физического магазина или торговой палатки и развивай свой бизнес
                         </p>
                         <a href='https://app.florinka.pp.ua/registration' className='button button3'>Создать витрину</a>
