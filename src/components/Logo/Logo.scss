@@ -1,0 +1,13 @@
+.Logo{
+    display: inline-flex;
+    span{
+        font-weight: 800;
+        font-size: 32px;
+    }
+    :first-child{
+        color: rgb(118, 156, 120);
+    }
+    :last-child{
+        color: rgb(94, 149, 231);
+    }
+}

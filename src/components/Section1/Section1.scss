@@ -1,6 +1,6 @@
 .Section1 {
     position: relative;
-    padding: 145px 0;
+    padding: 150px 0 50px 0;
 
     &__bg1 {
         position: absolute;
@@ -29,28 +29,30 @@
         font-size: 18px;
         line-height: 26px;
         color: #202932;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
-    &__button {
-        width: 285px;
-        height: 50px;
-        background: #3d2dda;
-        border-radius: 5px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        text-transform: uppercase;
-        color: #ffffff;
-        border: none;
-        outline: none !important;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-
-        &:hover{
-            color: #ffffff;
-            background: #201a53;
-            text-decoration: none;
+    &__colRight {
+        //border:1px solid red;
+        img {
+            width: 100%;
         }
+    }
+    &__test {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .button2 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 767.98px) {
+   
+}
+
+@media (min-width: 1199.98px) {
+    .Section1 {
+        position: relative;
+        padding: 225px 0 145px 0;
     }
 }
