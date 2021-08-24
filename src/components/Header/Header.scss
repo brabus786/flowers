@@ -1,0 +1,42 @@
+.Header {
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: rgb(226, 229, 231);
+    transition: .3s;
+    display: flex;
+    align-items: center;
+
+    &__HeaderScroll{
+        height: 60px;
+        -webkit-box-shadow: -2px 11px 10px -5px rgba(0,0,0,0.56); 
+        box-shadow: -2px 11px 10px -5px rgba(0,0,0,0.56);
+
+    }
+    &__innerWrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        //border: 1px solid red;
+    }
+
+    .button1{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 767.98px) {
+    .Header {
+        .button1{
+            display: flex;
+        }
+    }
+}
+
+
+@media (min-width: 991.98px) {
+ 
+  
+}

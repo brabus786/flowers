@@ -3,3 +3,28 @@ body{
     padding: 0;
     /* font-family:'URW DIN'; */
 }
+
+.button {
+    width: 285px;
+    height: 40px;
+    background: #5e95e7;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    outline: none !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.button:hover{
+    color: #ffffff;
+    background: #2a4875;
+    text-decoration: none;
+}
