@@ -1,0 +1,36 @@
+.DemoStores {
+    padding-top: 70px;
+    &__titlePage {
+        font-size: 32px;
+        margin-bottom: 70px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.2;
+    }
+    &__col {
+        img {
+            width: 100%;
+            cursor: pointer;
+        }
+    }
+    &__title {
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.2;
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 767.98px) {
+}
+
+@media (min-width: 1199.98px) {
+    .Section1 {
+        position: relative;
+        padding: 225px 0 145px 0;
+    }
+}

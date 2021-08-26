@@ -15,6 +15,7 @@ import img5 from '../src/img/Screenshot1_5.png';
 import img6 from '../src/img/Screenshot1_6.png';
 import img7 from '../src/img/Screenshot1_7.png';
 import img9 from '../src/img/Screenshot1_9.png';
+import DemoStores from './components/DemoStores/DemoStores';
 
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
       <Section1
         setIsPopup={setIsPopup}
       />
+
+      <DemoStores />
+
       <Section1copy1
         position='left'
         title='1. Создание витрины'
