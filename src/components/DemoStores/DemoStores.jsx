@@ -18,7 +18,7 @@ const DemoStores = ({ setIsPopup }) => {
                 </p>
                 <Row>
                     <Col className='DemoStores__col buttonFlowers' xl='4' >
-                        <p className='DemoStores__title'>Магазин цветов</p>
+                        <p className='DemoStores__title'>Витрина цветов</p>
                         <a target="_blank" href="https://app.florinka.pp.ua/public/kiev-flowers?category=610c19110e49e1003bc502fb">
                             <img src={mokap1} alt="mokap1" />
                         </a>
@@ -30,7 +30,7 @@ const DemoStores = ({ setIsPopup }) => {
                     </Col>
                   
                     <Col className='DemoStores__col buttonFlowers' xl='4'>
-                        <p className='DemoStores__title'>Магазин саженцев</p>
+                        <p className='DemoStores__title'>Витрина саженцев</p>
                         <a target="_blank" href="https://app.florinka.pp.ua/public/point?category=6113f0c25c3756003b283ce7">
                             <img src={mokap2} alt="mokap1" />
                         </a>
@@ -42,7 +42,7 @@ const DemoStores = ({ setIsPopup }) => {
                     </Col>
 
                     <Col className='DemoStores__col buttonFlowers' xl='4'>
-                        <p className='DemoStores__title'>Магазин декора</p>
+                        <p className='DemoStores__title'>Витрина декора</p>
                         <a target="_blank" href="https://app.florinka.pp.ua/public/decor?category=61287ea4856aaa003c9de641">
                             <img src={mokap3} alt="mokap1" />
                         </a>
