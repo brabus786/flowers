@@ -12,7 +12,7 @@ const Section1 = ({ setIsPopup }) => {
             <Container>
                 <Row>
                     <Col xl='6'>
-                        <p className='Section1__label'>цветочные магазины, флористы, торговля саженцами</p>
+                        {/* <p className='Section1__label'>цветочные магазины, флористы, торговля саженцами</p> */}
                         <p className='Section1__title'>
                             Расширяй свой бизнес с оналйн витриной <Logo size={31}/>
                         </p>
